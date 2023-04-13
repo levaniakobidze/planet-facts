@@ -95,15 +95,15 @@ export default function Info(props: any) {
                 </TextLink>
               </ContentSpecialBox>
               <ChangeBoxTablet>
-                <BoxTablet overview={overview} onClick={makeOverview}>
+                <BoxTablet overview onClick={makeOverview}>
                   <TextNumerationTablet>01</TextNumerationTablet>
                   <TextTablet>OVERVIEW</TextTablet>
                 </BoxTablet>
-                <BoxTablet overview={overview} onClick={makeStructure}>
+                <BoxTablet overview onClick={makeStructure}>
                   <TextNumerationTablet>02</TextNumerationTablet>
                   <TextTablet>Structure</TextTablet>
                 </BoxTablet>
-                <BoxTablet overview={overview} onClick={makeSurface}>
+                <BoxTablet overview onClick={makeSurface}>
                   <TextNumerationTablet>03</TextNumerationTablet>
                   <TextTablet>Surface</TextTablet>
                 </BoxTablet>
